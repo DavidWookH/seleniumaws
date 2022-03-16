@@ -22,9 +22,8 @@ options.add_argument("--disable-dev-shm-usage")
 
 driver = webdriver.Chrome(options=options)
 
-# s = Service(executable_path='../chromedriver.exe') # no deprecation
-# driver = webdriver.Chrome(service=s)
-
+#s = Service(executable_path='../chromedriver.exe') # no deprecation
+#driver = webdriver.Chrome(service=s)
 # user_system_id=''
 # # create a Chrome driver Instance, specify path to chromedriver file
 # # this gives a DeprecationWarning
